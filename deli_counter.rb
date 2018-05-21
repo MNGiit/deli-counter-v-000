@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     count = 1
-    string = "The line is currently: "
+    string = "The line is currently:"
     katz_deli.each do |name|
       string = string + " #{count}. #{name}"
       count+=1
