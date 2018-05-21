@@ -9,5 +9,6 @@ def line(katz_deli)
     katz_deli.each do |name|
       string = string + "#{count}. #{name}"
     end
+    string
   end
 end
