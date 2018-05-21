@@ -2,6 +2,6 @@
 
 def line(katz_deli)
   if katz_deli.length == 0
-    "There is no one in line"
+    puts "There is no one in line"
   end
 end
