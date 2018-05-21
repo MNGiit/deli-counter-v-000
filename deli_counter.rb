@@ -15,8 +15,5 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli == 0
-    katz_deli.push(name)
-    katz_deli
-  end
+  katz_deli.push(name) if katz_deli.length == 0
 end
